@@ -11,10 +11,10 @@ heroImage: /logo.png
 heroText: 小鸡很方's Wiki
 tagline: 小鸡很方的个人Wiki✨
 actions:
-  - text: 使用指南
-    icon: lightbulb
-    link: ./demo/
-    type: primary
+#  - text: 使用指南
+#    icon: lightbulb
+#    link: ./demo/
+#    type: primary
 
   - text: 博客
     icon: blog
@@ -23,24 +23,24 @@ actions:
 
 features:
   - title: 项目
-    icon: marker
-    details: 小鸡的项目笔记
-#    link: /zh/notes/SpringCloud/
+    icon: laptop-code
+    details: 小鸡的项目文档
+    link: /blog/project/
 
   - title: 题目
     icon: star
     details: 小鸡的题目➕题解
-#    link: /zh/notes/cfmall-notes/
+    link: /blog/problem/
 
   - title: 文档
     icon: file
-    details: 小鸡的文档
-#    link: /zh/notes/MySQL/
+    details: 小鸡的个人文档
+    link: /blog/note/
 
-  - title: 教程
+  - title: 笔记
     icon: book-open
-    details: 小鸡的教程
-#    link: /zh/notes/Interview/
+    details: 小鸡的学习笔记
+    link: /blog/learning/
     
 #highlights:
 #  - header: 易于安装

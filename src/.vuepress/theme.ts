@@ -30,6 +30,19 @@ export default hopeTheme({
   footer: "默认页脚",
   displayFooter: true,
 
+  // 博客相关
+  blog: {
+    name: "小鸡很方",
+    avatar: "/logo.png",
+    description: "此时情绪此时天",
+    intro: "/portfolio",
+    medias: {
+      Email: "mailto:fang-kk@qq.com",
+      GitHub: "https://github.com/kef25055",
+      Steam: "https://steamcommunity.com/profiles/76561199344539313/",
+    },
+  },
+
   // 加密配置
   encrypt: {
     config: {
