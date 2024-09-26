@@ -18,7 +18,7 @@ actions:
 
   - text: 博客
     icon: blog
-    link: ./blog/
+    link: /blog/
     type: primary
 
 features:
@@ -27,13 +27,13 @@ features:
     details: 小鸡的项目文档
     link: /blog/project/
 
-  - title: 题目
-    icon: star
+  - title: 题解
+    icon: lightbulb
     details: 小鸡的题目➕题解
     link: /blog/problem/
 
   - title: 文档
-    icon: file
+    icon: pen-to-square
     details: 小鸡的个人文档
     link: /blog/note/
 

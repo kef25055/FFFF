@@ -11,7 +11,7 @@ export default defineUserConfig({
   description: "小鸡的个人网站🎈",
   theme,
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/FFFF/logo.png' }]
   ],
   // 和 PWA 一起启用
   // shouldPrefetch: false,

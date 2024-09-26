@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
 title: 文档
-icon: file
+icon: pen-to-square
 description: 小鸡的个人文档
 ---

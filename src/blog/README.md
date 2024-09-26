@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: circle-user
 title: 博客主页
 bgImage: /background3.jpg
 heroImage: /logo.png
@@ -15,12 +15,12 @@ projects:
     desc: 小鸡的项目文档
     link: /blog/project/
 
-  - icon: star
-    name: 题目
+  - icon: lightbulb
+    name: 题解
     desc: 小鸡的题目➕题解
     link: /blog/problem/
     
-  - icon: file
+  - icon: pen-to-square
     name: 文档
     desc: 小鸡的个人文档
     link: /blog/note/
