@@ -15,7 +15,7 @@ tags:
 
 在安装路径的根目录下新建 **node_cache** 和 **node_global** 文件夹
 
-![nodejs](/FFFF/blog/note/nodejs.png)
+![nodejs](/blog/note/nodejs.png)
 
 ### 3.环境变量
 
