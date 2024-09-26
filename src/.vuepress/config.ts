@@ -7,10 +7,11 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "小鸡很方",
-  description: "vuepress-theme-hope 的文档演示",
+  // description: "vuepress-theme-hope 的文档演示",
+  description: "小鸡的个人网站🎈",
   theme,
   head: [
-    ['link', { rel: 'icon', href: '/FFFF/logo.png' }]
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
   // 和 PWA 一起启用
   // shouldPrefetch: false,
