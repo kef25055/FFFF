@@ -4,44 +4,52 @@ icon: home
 title: 主页
 #heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroImage: /logo.png
+bgImage: /background2.jpg
 #bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 #bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 #bgImageStyle:
 #  background-attachment: fixed
 heroText: 小鸡很方's Wiki
-tagline: 小鸡很方的个人Wiki✨
+tagline: 小鸡的个人Wiki✨
+bgImageStyle:
+  background-attachment: fixed  # 背景固定
+  background-size: cover  # 背景覆盖
+  background-position: center  # 背景居中
+  height: 90vh  
+#heroFullScreen: true
 actions:
-#  - text: 使用指南
-#    icon: lightbulb
-#    link: ./demo/
-#    type: primary
-
+  
   - text: 博客
     icon: blog
     link: /blog/
     type: primary
-
-features:
-  - title: 项目
-    icon: laptop-code
-    details: 小鸡的项目文档
-    link: /blog/project/
-
-  - title: 题解
-    icon: lightbulb
-    details: 小鸡的题目➕题解
-    link: /blog/problem/
-
-  - title: 文档
-    icon: pen-to-square
-    details: 小鸡的个人文档
-    link: /blog/note/
-
-  - title: 笔记
-    icon: book-open
-    details: 小鸡的学习笔记
-    link: /blog/learning/
     
+  - text: 关于我
+#    icon: address-card
+    link: /portfolio
+    type: primary
+
+#features:
+#  - title: 项目
+#    icon: laptop-code
+#    details: 小鸡的项目文档
+#    link: /blog/project/
+#
+#  - title: 题解
+#    icon: lightbulb
+#    details: 小鸡的题目➕题解
+#    link: /blog/problem/
+#
+#  - title: 文档
+#    icon: pen-to-square
+#    details: 小鸡的个人文档
+#    link: /blog/note/
+#
+#  - title: 笔记
+#    icon: book-open
+#    details: 小鸡的学习笔记
+#    link: /blog/learning/
+#    
 #highlights:
 #  - header: 易于安装
 #    image: /assets/image/box.svg
@@ -340,7 +348,7 @@ features:
 #        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: 💭💡🎈
+footer: false
 #footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
 ---
 

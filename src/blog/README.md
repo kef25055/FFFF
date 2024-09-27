@@ -1,8 +1,8 @@
 ---
 home: true
 layout: BlogHome
-icon: circle-user
-title: 博客主页
+icon: blog
+title: 博客
 bgImage: /background3.jpg
 heroImage: /logo.png
 heroText: 小鸡很方

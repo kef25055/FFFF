@@ -1,7 +1,16 @@
 // place your custom styles here
 .vp-blog-hero-title {
-  color: #333333 // 这里可以设置你想要的颜色
+  color: #333333; // 这里可以设置你想要的颜色
 }
 .vp-blog-hero-description {
-  color: #333333
+  color: #333333;
 }
+.vp-hero-info-wrapper{
+  height: 90vh;
+}
+//.vp-hero-info {
+//  display: flex;
+//  justify-content: center; /* 水平居中 */
+//  align-items: center;     /* 垂直居中 */
+//  height: 100%;            /* 如果需要在整个容器内居中 */
+//}

@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://github.com/kef25055",
 
   author: {
     name: "小鸡很方",
-    url: "https://mister-hope.com",
+    url: "https://github.com/kef25055",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -16,8 +16,9 @@ export default hopeTheme({
   logo: "/logo.png",
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
+  repo: "kef25055",
   docsDir: "src",
 
   // 导航栏
@@ -30,6 +31,7 @@ export default hopeTheme({
   footer: "💭💡🎈",
   displayFooter: true,
   editLink: false,
+  fullscreen: true,
 
   // 博客相关
   blog: {
