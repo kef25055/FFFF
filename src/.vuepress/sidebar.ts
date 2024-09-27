@@ -1,5 +1,4 @@
 import { sidebar } from "vuepress-theme-hope";
-
 export default sidebar({
   "/blog/learning/": "structure",
   "/blog/note/": "structure",

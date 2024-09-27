@@ -29,6 +29,7 @@ export default hopeTheme({
   // 页脚
   footer: "💭💡🎈",
   displayFooter: true,
+  editLink: false,
 
   // 博客相关
   blog: {
