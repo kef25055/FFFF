@@ -14,3 +14,11 @@
 //  align-items: center;     /* 垂直居中 */
 //  height: 100%;            /* 如果需要在整个容器内居中 */
 //}
+
+.vp-page.vp-portfolio-home {
+  overflow: hidden;
+  height: 20vh;
+}
+.vp-portfolio-avatar{
+  align-items: center;     /* 垂直居中 */
+}

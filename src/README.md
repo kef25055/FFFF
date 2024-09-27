@@ -15,7 +15,7 @@ bgImageStyle:
   background-attachment: fixed  # 背景固定
   background-size: cover  # 背景覆盖
   background-position: center  # 背景居中
-  height: 90vh  
+  height: 85vh  
 #heroFullScreen: true
 actions:
   
