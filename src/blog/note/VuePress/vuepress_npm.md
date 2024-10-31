@@ -16,7 +16,7 @@ tags:
 
 在安装路径的根目录下新建 **node_cache** 和 **node_global** 文件夹
 
-![](/blog/note/nodejs.png)
+![](./img/nodejs.png)
 
 ### 3.环境变量
 
@@ -218,12 +218,12 @@ tags:
 
   > 这里的 main 是本地分支名称，如果本地分支不是 main 自行修改，本地分支名称可以在这里查看：
   >
-  > ![](/blog/note/git.png)
+  > ![](./img/git.png)
 
 ### 3.使用 Github Pages 发布站点
 
 上一步完成推送后，应该会自动生成 gh-pages 分支，前往 GitHub 仓库的设置页面，选择 `gh-pages` 作为 GitHub Pages 的源。
 
-![](/blog/note/pages.png)
+![](./img/pages.png)
 
 等待自动部署完成后在当前页面即可访问站点

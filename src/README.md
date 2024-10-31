@@ -4,18 +4,18 @@ icon: home
 title: 主页
 #heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroImage: /logo.png
-bgImage: /background2.jpg
+# bgImage: /background2.jpg
 #bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 #bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 #bgImageStyle:
 #  background-attachment: fixed
 heroText: 小鸡很方's Wiki
 tagline: 小鸡的个人Wiki✨
-bgImageStyle:
-  background-attachment: fixed  # 背景固定
-  background-size: cover  # 背景覆盖
-  background-position: center  # 背景居中
-  height: 85vh  
+# bgImageStyle:
+#   background-attachment: fixed  # 背景固定
+#   background-size: cover  # 背景覆盖
+#   background-position: center  # 背景居中
+#   height: 85vh  
 #heroFullScreen: true
 actions:
   
@@ -29,26 +29,26 @@ actions:
     link: /portfolio
     type: primary
 
-#features:
-#  - title: 项目
-#    icon: laptop-code
-#    details: 小鸡的项目文档
-#    link: /blog/project/
-#
-#  - title: 题解
-#    icon: lightbulb
-#    details: 小鸡的题目➕题解
-#    link: /blog/problem/
-#
-#  - title: 文档
-#    icon: pen-to-square
-#    details: 小鸡的个人文档
-#    link: /blog/note/
-#
-#  - title: 笔记
-#    icon: book-open
-#    details: 小鸡的学习笔记
-#    link: /blog/learning/
+features:
+ - title: 项目
+   icon: laptop-code
+   details: 小鸡的项目文档
+   link: /blog/project/
+
+ - title: 题解
+   icon: lightbulb
+   details: 小鸡的题目➕题解
+   link: /blog/problem/
+
+ - title: 文档
+   icon: pen-to-square
+   details: 小鸡的个人文档
+   link: /blog/note/
+
+ - title: 笔记
+   icon: book-open
+   details: 小鸡的学习笔记
+   link: /blog/learning/
 #    
 #highlights:
 #  - header: 易于安装

@@ -38,6 +38,9 @@
     "vuepress-plugin-md-enhance": "2.0.0-rc.54",
     "vuepress-plugin-search-pro": "^2.0.0-rc.54",
     "vuepress-shared": "2.0.0-rc.54",
-    "vuepress-theme-hope": "2.0.0-rc.56"
+    "vuepress-theme-hope": "^2.0.0-rc.56"
+  },
+  "dependencies": {
+    "vuepress-plugin-sakura": "^1.2.1"
   }
 }
