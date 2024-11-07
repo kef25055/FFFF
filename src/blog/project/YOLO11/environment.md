@@ -164,3 +164,8 @@ if __name__ == '__main__':
 > ```shell
 >pip install numpy==1.23.5
 >``` 
+
+使用以下命令可以查看当前的NumPy版本
+```shell
+pip show numpy
+```
