@@ -226,4 +226,4 @@ tags:
 
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/note/Vuepress/pages.png?raw=true)
 
-等待自动部署完成后在当前页面即可访问站点
+等待自动部署完成后在当前页面即可访问站点。

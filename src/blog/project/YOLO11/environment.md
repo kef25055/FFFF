@@ -109,20 +109,25 @@ pip install ultralytics
 进入[源码地址](https://github.com/ultralytics/ultralytics/)进行下载。
 
 首先下载源代码压缩包并解压
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/yolozip.png?raw=true)
 
 下滑找到yolo11n.pt，点击下载
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/yolo11n.png?raw=true)
 
 将下载的文件放到刚刚解压的源码根目录下
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/ultralvticsmain.png?raw=true)
 
 ### 🔥Pycharm导入环境
 
 用Pycharm打开刚刚的项目源码，添加新的本地解释器
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/newyolov11.png?raw=true)
 
 按下图选择环境后点击确定即可
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/yolov11.png?raw=true)
 
 ## 📌验证环境
@@ -142,5 +147,6 @@ if __name__ == '__main__':
                   )
 ```
 
-运行后输出如下图即环境正常
+运行后输出如下图即环境正常。
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/val.png?raw=true)
