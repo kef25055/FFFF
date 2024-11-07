@@ -1,7 +1,9 @@
 ---
-title: yolo11环境配置
-tags:
-  - yolo11
+title: YOLO11环境配置
+categories:
+  - YOLO11
+#tags:
+#  - yolo11
 ---
 
 ::: info

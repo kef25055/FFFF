@@ -32,7 +32,7 @@ actions:
 features:
  - title: 项目
    icon: laptop-code
-   details: 小鸡的项目文档
+   details: 小鸡的项目笔记
    link: /blog/project/
 
  - title: 题解
