@@ -152,3 +152,15 @@ if __name__ == '__main__':
 运行后输出如下图即环境正常。
 
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/project/YOLO11/val.png?raw=true)
+
+### 🔥NumPy版本问题
+
+如果提示NumPy版本不兼容相关的错误
+> 打开 Anaconda prompt ,进入 yolov11 环境
+> ```shell
+> conda activate yolov11
+> ```
+> 输入以下命令，安装1.23.5版本的NumPy
+> ```shell
+>pip install numpy==1.23.5
+>``` 
