@@ -2,8 +2,7 @@
 title: YOLO11环境配置
 categories:
   - YOLO11
-#tags:
-#  - yolo11
+order: 1
 ---
 
 ::: info
