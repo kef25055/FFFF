@@ -21,6 +21,7 @@ order: 2
 每条数据都有两个隐藏字段：
 - trx_id:事务 id，记录最近一次更新这条数据的事务 id
 - roll_pointer:回滚指针，指向之前生成的 undo log
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/learning/%E6%95%B0%E6%8D%AE%E5%BA%93/1.png?raw=true)
 每一条数据都有多个版本，版本之间通过 undo log 链条进行连接。
 
@@ -41,6 +42,7 @@ ReadView 中比较重要的字段有 4 个：
 如果不符合比较规则，就根据回滚指针回滚到上一条记录继续比较，直到得到符合条件的查询结果。
 
 **ReadView 判断记录某个版本是否可见的规则如下：**
+
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/learning/%E6%95%B0%E6%8D%AE%E5%BA%93/2.png?raw=true)
 - 如果当前记录的事务 id 落在左侧部分，表示这个版本已经是已提交的事务生成的，可读。
 - 如果当前记录的事务 id 落在右侧部分，表示这个版本是由将来启动的事务生成的，不可读。
