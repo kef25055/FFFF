@@ -13,14 +13,14 @@ order: 2
 ## MVCC
 - MVCC，多版本并发控制，用于实现**读已提交**和**可重复读**隔离级别。
 - MVCC 的核心就是 Undo log 多版本链 + ReadView，
-  "MV" 就是通过 Undo log 来白村数据的历史版本，实现多版本的管理，
-  "CC" 时通过 ReadView 来实现管理，通过 ReadView 原则来决定数据是否显示。
+  "MV" 就是通过 Undo log 来保存数据的历史版本，实现多版本的管理，
+  "CC" 是通过 ReadView 来实现管理，通过 ReadView 原则来决定数据是否显示。
   同时针对不同的隔离级别，ReadView 的生成策略不同，也就实现了不同的隔离级别。
 
 ## Undo log 多版本链
 每条数据都有两个隐藏字段：
-- trx_id:事务 id，记录最近一次更新这条数据的事务 id
-- roll_pointer:回滚指针，指向之前生成的 undo log
+- `trx_id`:事务 id，记录最近一次更新这条数据的事务 id
+- `roll_pointer`:回滚指针，指向之前生成的 undo log
 
 ![](https://github.com/kef25055/Typoraimg/blob/main/blog/learning/%E6%95%B0%E6%8D%AE%E5%BA%93/1.png?raw=true)
 
@@ -36,7 +36,7 @@ ReadView 中比较重要的字段有 4 个：
 - `m_ids`：用来表示 MySQL 中哪些事务正在执行，但是没有提交。
 - `min_trx_id`：就是 `m_ids` 里最小的值。
 - `max_trx_id`：**下一个**要生成的事务 id 值，也就是最大事务 id。
-- `ceeator_trx_id`：当前事务 id。
+- `creator_trx_id`：当前事务 id。
 
 当一个事务第一次执行查询 sql 时，会生成一致性视图 read-view（快照），
 查询时从 undo log 中最新的一条记录开始跟 read-view 做对比。
