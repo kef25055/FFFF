@@ -7,6 +7,7 @@ export default navbar([
   "/blog/problem/",
   "/blog/note/",
   "/blog/learning/",
+  "/friend/"
   // "/blog/",
   // "/demo/",
   // {
